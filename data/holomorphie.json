@@ -1,0 +1,149 @@
+[
+{
+  "section": "Holomorphie",
+  "tags": [
+    {
+      "niveau": "L3"
+    }
+  ],
+  "type": "onlyone",
+  "question": "La fonction \\(x+iy \\mapsto e^x\\cos(y)+ie^x\\sin(y)\\) est holomorphe sur \\(\\mathbb C\\). (Les variables \\(x\\) et \\(y\\) sont réelles)\n",
+  "answers": [
+    {
+      "value": "Vrai\n",
+      "correct": true
+    },
+    {
+      "value": "Faux\n",
+      "correct": false
+    }
+  ],
+  "explanations": "On utilise la condition de Cauchy-Riemann ou mieux, on reconnaît l'exponentielle complexe.\n"
+},
+{
+  "section": "Holomorphie",
+  "tags": [
+    {
+      "niveau": "L3"
+    }
+  ],
+  "type": "onlyone",
+  "question": "La fonction \\(x+iy \\mapsto x^3-3xy^2+i(3x^2y-y^3)\\) est holomorphe sur \\(\\mathbb C\\). (Les variables \\(x\\) et \\(y\\) sont réelles)\n",
+  "answers": [
+    {
+      "value": "Vrai\n",
+      "correct": true
+    },
+    {
+      "value": "Faux\n",
+      "correct": false
+    }
+  ],
+  "explanations": "On doit reconnaître \\(z\\mapsto z^3\\), pas besoin de Cauchy-Riemann, mais au pire ça donne bien sûr le résultat.\n"
+},
+{
+  "section": "Holomorphie",
+  "tags": [
+    {
+      "niveau": "L3"
+    }
+  ],
+  "type": "onlyone",
+  "question": "Pour \\(U\\) un ouvert non vide de \\(\\mathbb C\\) et \\(f : U\\to \\mathbb C\\) une fonction holomorphe, si \\(\\overline{f}\\) est holomorphe, alors \\(f\\) est constante.\n",
+  "answers": [
+    {
+      "value": "Vrai\n",
+      "correct": false
+    },
+    {
+      "value": "Faux\n",
+      "correct": true
+    }
+  ],
+  "explanations": "Ce que donne Cauchy-Riemann, c'est que la différentielle de la fonction est nulle, autrement dit la fonction est localement constante. Mais elle n'est pas forcément constante si l'ouvert n'est pas connexe.\n"
+},
+{
+  "section": "Holomorphie",
+  "tags": [
+    {
+      "niveau": "L3"
+    }
+  ],
+  "type": "onlyone",
+  "question": "Pour \\(U\\) un ouvert de \\(\\mathbb C\\) et \\(f : U\\to \\mathbb C\\) une fonction holomorphe,  la fonction \\(z\\mapsto |f(z)|\\) est holomorphe.\n",
+  "answers": [
+    {
+      "value": "Vrai\n",
+      "correct": false
+    },
+    {
+      "value": "Faux\n",
+      "correct": true
+    }
+  ],
+  "explanations": "La fonction est réelle, donc d'après Cauchy-Riemann elle ne peut être holomorphe sauf à être localement constante. (Noter que la fonction pourrait très bien ne pas être différentiable, par exemple \\(z\\mapsto |z|\\) n'est pas différentiable en l'origine.)\n"
+},
+{
+  "section": "Holomorphie",
+  "tags": [
+    {
+      "niveau": "L3"
+    }
+  ],
+  "type": "onlyone",
+  "question": "La fonction \\(x+iy \\mapsto \\frac{x^3+\\ln(e^x+e^y)}{x+e^y}\\) est holomorphe sur \\(\\mathbb C\\setminus \\{x\\neq -e^y\\}\\). (Les variables \\(x\\) et \\(y\\) sont réelles)\n",
+  "answers": [
+    {
+      "value": "Vrai\n",
+      "correct": false
+    },
+    {
+      "value": "Faux\n",
+      "correct": true
+    }
+  ],
+  "explanations": "La fonction est réelle. Donc sa matrice jacobienne a une deuxième ligne nulle et ne peut être une similitude directe que si elle est nulle, or la première ligne ne sera pas identiquement nulle car la fonction n'est pas constante.\n"
+},
+{
+  "section": "Holomorphie",
+  "tags": [
+    {
+      "niveau": "L3"
+    }
+  ],
+  "type": "onlyone",
+  "question": "La fonction \\(x+iy \\mapsto \\frac{1}{2}\\ln(x^2+y^2)+i\\arctan(y/x)\\) est holomorphe sur le demi-plan ouvert \\(\\{x>0\\}\\). (Les variables \\(x\\) et \\(y\\) sont réelles)\n",
+  "answers": [
+    {
+      "value": "Vrai\n",
+      "correct": true
+    },
+    {
+      "value": "Faux\n",
+      "correct": false
+    }
+  ],
+  "explanations": "Cauchy-Riemann. Notez qu'on reconnaît une détermination de logarithme complexe\n"
+},
+{
+  "section": "Holomorphie",
+  "tags": [
+    {
+      "niveau": "L3"
+    }
+  ],
+  "type": "onlyone",
+  "question": "La fonction \\(x+iy \\mapsto e^{x^2-y^2}\\cos(2xy)-ie^{x^2-y^2}\\sin(2xy)\\) est holomorphe sur le demi-plan ouvert \\(\\{x>0\\}\\). (Les variables \\(x\\) et \\(y\\) sont réelles)\n",
+  "answers": [
+    {
+      "value": "Vrai\n",
+      "correct": false
+    },
+    {
+      "value": "Faux\n",
+      "correct": true
+    }
+  ],
+  "explanations": "Cauchy-Riemann, ou bien on reconnaît \\(e^{\\overline{z^2}}=\\overline{e^{z^2}}\\) qui n'est pas holomorphe.\n"
+}
+]

@@ -1,0 +1,206 @@
+[
+	{
+		"answer": true, "statement": "$\\cos(a+b)=\\cos(a)\\cos(b)-\\sin(a)\\sin(b)$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(a+b)=\\sin(a)\\sin(b)+\\cos(a)\\cos(b)$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(a-b)=\\cos(a)\\cos(b)+\\sin(a)\\sin(b)$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(a-b)=\\cos(a)\\cos(b)-\\sin(a)\\sin(b)$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(a+b)=\\cos(a)\\sin(b)+\\sin(a)\\cos(b)$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(a+b)=\\sin(a)\\sin(b)+\\cos(a)\\cos(b)$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(a-b)=\\sin(a)\\cos(b)-\\sin(b)\\cos(a)$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(a-b)=\\cos(a)\\sin(b)-\\sin(a)\\cos(b)$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(2a)=1-2\\sin^2(a)$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(2a)=2\\sin^2(a)-1$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(2a)=2\\cos^2(a)-1$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(2a)=1-2\\cos^2(a)$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(2a)=\\cos^2(a)-\\sin^2(a)$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(2a)=\\cos^2(a)+\\sin^2(a)$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(2a)=2\\sin(a)\\cos(a)$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(2a)=2\\sin^2(a)-1$."
+	},
+	{
+		"answer": true, "statement": "$\\cos^2(a)=\\frac{1+\\cos(2a)}{2}$."
+	},
+	{
+		"answer": true, "statement": "$\\sin^2(a)=\\frac{1-\\cos(2a)}{2}$."
+	},
+	{
+		"answer": false, "statement": "$\\cos^2(a)=\\frac{1-\\cos(2a)}{2}$."
+	},
+	{
+		"answer": false, "statement": "$\\sin^2(a)=\\frac{1+\\sin(2a)}{2}$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(a+\\pi)=-\\sin(a)$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(a+\\frac{\\pi}{2})=\\cos(a)$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(a+2\\pi)=\\sin(a)$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(-a)=-\\sin(a)$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(a+\\pi)=\\sin(a)$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(a+\\frac{\\pi}{2})=-\\cos(a)$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(a+2\\pi)=-\\sin(a)$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(-a)=\\sin(a)$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(a+\\pi)=-\\cos(a)$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(a+\\frac{\\pi}{2})=-\\sin(a)$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(a+2\\pi)=\\cos(a)$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(-a)=\\cos(a)$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(a+\\pi)=\\cos(a)$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(a+\\frac{\\pi}{2})=\\sin(a)$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(a+2\\pi)=-\\cos(a)$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(-a)=-\\cos(a)$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(a-\\frac{\\pi}{2})=\\sin(a)$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(\\frac{\\pi}{2}-a)=\\sin(a)$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(a-\\frac{\\pi}{2})=\\cos(a)$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(\\frac{\\pi}{2}-a)=\\cos(a)$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(7\\pi/6)=-\\sqrt{3}/2$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(5\\pi/4)=-1/\\sqrt{2}$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(4\\pi/3)=-1/2$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(3\\pi/2)=0$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(5\\pi/3)=1/2$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(7\\pi/4)=\\sqrt{2}/2$."
+	},
+	{
+		"answer": true, "statement": "$\\cos(11\\pi/6)=\\sqrt{3}/2$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(2\\pi/3)=\\sqrt{3}/2$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(3\\pi/4)=1/\\sqrt{2}$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(5\\pi/6)=1/2$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(\\pi)=0$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(7\\pi/6)=-1/2$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(5\\pi/4)=-1/\\sqrt{2}$."
+	},
+	{
+		"answer": true, "statement": "$\\sin(4\\pi/3)=-\\sqrt{3}/2$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(7\\pi/6)=-1/2$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(5\\pi/4)=\\sqrt{2}/2$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(4\\pi/3)=-\\sqrt{3}/2$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(3\\pi/2)=-1$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(5\\pi/3)=-\\sqrt{3}/2$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(7\\pi/4)=1/2$."
+	},
+	{
+		"answer": false, "statement": "$\\cos(11\\pi/6)=-1/2$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(2\\pi/3)=\\sqrt{2}/2$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(3\\pi/4)=1/2$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(5\\pi/6)=-\\sqrt{3}/2$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(\\pi)=-1$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(7\\pi/6)=-\\sqrt{2}/2$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(5\\pi/4)=-1/2$."
+	},
+	{
+		"answer": false, "statement": "$\\sin(4\\pi/3)=\\sqrt{3}/2$."
+	}
+]

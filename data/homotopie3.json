@@ -1,0 +1,99 @@
+[
+    {
+        "section": "Homotopie 3",
+        "tags": [
+          {
+            "niveau": "L3"
+          }
+        ],
+        "question": "Soit \\(\\gamma : [0,\\pi]\\to \\mathbb C, t\\mapsto e^{it}\\). Pour tout \\((s,t)\\in[0,1]\\times[0,\\pi]\\) on note \\(H(s,t)= e^{ist}\\).\n",
+        "answers": [
+          {
+            "value": "Dans l'ouvert  \\(U:=\\mathbb C\\), \\(H\\) définit une homotopie entre le chemin constant \\(1\\) et \\(\\gamma\\).\n",
+            "correct": true
+          },
+          {
+            "value": "Dans  l'ouvert  \\(U:=\\mathbb C^*\\),  \\(H\\) définit une homotopie entre le chemin constant \\(1\\) et \\(\\gamma\\).\n",
+            "correct": true
+          },
+          {
+            "value": "Dans  l'ouvert  \\(U:=\\mathbb C\\),  \\(H\\) définit une homotopie stricte entre le chemin constant \\(1\\) et \\(\\gamma\\).\n",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "section": "Homotopie 3",
+        "tags": [
+          {
+            "niveau": "L3"
+          }
+        ],
+        "question": "Soit \\(\\gamma : [0,2\\pi]\\to \\mathbb C, t\\mapsto e^{it}\\).\n",
+        "answers": [
+          {
+            "value": "Dans l'ouvert \\(U:=\\mathbb C\\), la formule \\(H(s,t)= e^{ist}\\) définit une homotopie  entre le chemin constant \\(1\\) et \\(\\gamma\\).\n",
+            "correct": true
+          },
+          {
+            "value": "Dans l'ouvert  \\(U:=\\mathbb C^*\\), la formule \\(H(s,t)= e^{ist}\\)  définit une homotopie  entre le chemin constant \\(1\\) et \\(\\gamma\\).\n",
+            "correct": true
+          },
+          {
+            "value": "Dans  l'ouvert \\(U:=\\mathbb C\\), la formule \\(H(s,t)= e^{ist}\\) définit une homotopie au sens des lacets entre le chemin constant \\(1\\) et \\(\\gamma\\).\n",
+            "correct": false
+          },
+          {
+            "value": "Dans  l'ouvert \\(U:=\\mathbb C\\), la formule \\(H(s,t)= se^{it}\\)  définit une homotopie  entre le chemin constant \\(0\\) et \\(\\gamma\\).\n",
+            "correct": true
+          },
+          {
+            "value": "Dans  l'ouvert \\(U=\\mathbb C\\), la formule \\(H(s,t)= 1+s(e^{it}-1)\\)  définit une homotopie  au sens des lacets entre le chemin constant \\(1\\) et \\(\\gamma\\).\n",
+            "correct": true
+          },
+          {
+            "value": "Dans  l'ouvert \\(U:=\\mathbb C^*\\), la formule \\(H(s,t)= 1+s(e^{it}-1)\\)  définit une homotopie  entre le chemin constant \\(1\\) et \\(\\gamma\\).\n",
+            "correct": false
+          },
+          {
+            "value": "Dans l'ouvert  \\(U:=\\mathbb C^*\\), la formule \\(H(s,t)= e^{i(2\\pi s +t)}\\)  définit une homotopie au sens des lacets entre \\(\\gamma\\) et \\(\\gamma\\).\n",
+            "correct": true
+          },
+          {
+            "value": "Dans  l'ouvert \\(U:=\\mathbb C^*\\), la formule \\(H(s,t)= e^{i(2\\pi s +t)}\\)  définit une homotopie stricte entre \\(\\gamma\\) et \\(\\gamma\\).\n",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "section": "Homotopie 3",
+        "tags": [
+          {
+            "niveau": "L3"
+          }
+        ],
+        "question": "On définit les chemins suivants:\n\\[\n\\gamma_1 : [0,\\pi]\\to \\mathbb C, t\\mapsto e^{it};\\quad\n\\gamma_2 :  [0,\\pi]\\to \\mathbb C, t\\mapsto e^{-it};\\]\n",
+        "answers": [
+          {
+            "value": "Dans l'ouvert \\(U:=\\mathbb C\\), la formule \\(H(s,t)=(1-2s)\\gamma_1(t)\\) pour \\((s,t)\\in[0,1]\\times[0,\\pi]\\) définit une homotopie  entre \\(\\gamma_1\\) et \\(\\gamma_2\\).\n",
+            "correct": false
+          },
+          {
+            "value": "Dans l'ouvert \\(U:=\\mathbb C\\), la formule \\(H(s,t)=(1-2s)\\gamma_1(t)\\) pour \\((s,t)\\in[0,1]\\times[0,\\pi]\\) définit une homotopie  entre \\(\\gamma_1\\) et \\(\\gamma_2^{op}\\).\n",
+            "correct": true
+          },
+          {
+            "value": "Dans l'ouvert \\(U:=\\mathbb C^*\\), la formule \\(H(s,t)=(1-2s)\\gamma_1(t)\\) pour \\((s,t)\\in[0,1]\\times[0,\\pi]\\) définit une homotopie  entre \\(\\gamma_1\\) et \\(\\gamma_2^{op}\\).\n",
+            "correct": false
+          },
+          {
+            "value": "Dans l'ouvert \\(U:=\\mathbb C\\), la formule \\(H(s,t)=\\cos(t)+(1-2s)i\\sin(t)\\) pour \\((s,t)\\in[0,1]\\times[0,\\pi]\\) définit une homotopie stricte entre \\(\\gamma_1\\) et \\(\\gamma_2\\).\n",
+            "correct": true
+          },
+          {
+            "value": "Dans l'ouvert \\(U:=\\mathbb C^*\\), la formule \\(H(s,t)=\\cos(t)+(1-2s)i\\sin(t)\\) pour \\((s,t)\\in[0,1]\\times[0,\\pi]\\) définit une homotopie entre \\(\\gamma_1\\) et \\(\\gamma_2\\).\n",
+            "correct": false
+          }
+        ]
+      }
+]

@@ -1,0 +1,21 @@
+[
+	"Cette série teste la compréhension de phrases simples : définitions, reconnaissances de formes, etc.",
+	{"answer":false,"statement":"Un entier $n \\in \\mathbb N$ sera dit <b>gros</b> si $\\sqrt n\\geq 100$. $1000$ et ses multiples sont gros."},
+	{"answer":true,"statement":"Un entier $n \\in \\mathbb N$ sera dit <b>gros</b> si $\\sqrt n\\geq 100$. Il existe une infinité d'entiers gros."},
+	{"answer":false,"statement":"Un entier $n \\in \\mathbb Z$ sera dit <b>loin de $1$</b> si $\\sqrt |n-1|\\geq 2$. Les entiers $-4$ et $4$ sont loin de $1$.","comment":"$4$ n'est pas loin de $1$."},
+	{"answer":false,"statement":"Une fonction $f : \\mathbb R \\to \\mathbb R$ est <b>presque croissante</b> si pour tous réels $x < y$ on a $f(x)\\leq f(y)+1$. Le cosinus est presque croissant."},
+	{"answer":true,"statement":"Une fonction $f : \\mathbb R \\to \\mathbb R$ est <b>presque croissante</b> si pour tous réels $x < y$ on a $f(x)\\leq f(y)+1$. La fonction $x\\mapsto x^3-x$ est presque croissante.","comment":"Faire une étude de fonction (de tête)"},
+	{"answer":false,"statement":"Une fonction $f : \\mathbb R \\to \\mathbb R$ est <b>presque croissante</b> si pour tous réels $x<y$ on a $f(x)\\leq f(y)+1$. La fonction $x\\mapsto x^2$ est presque croissante."},
+	{"answer":false,"statement":"Une fonction est dite <b>bien élévée</b> si elle est positive sur $\\mathbb R_+$ et négative sur $\\mathbb R_-$. Une fonction croissante est bien elevée."},
+	{"answer":false,"statement":"Une fonction est dite <b>bien élévée</b> si elle est positive sur $\\mathbb R_+$ et négative sur $\\mathbb R_-$. Une fonction bien élevée est croissante."},
+	{"answer":true,"statement":"Une fonction est dite <b>bien élévée</b> si elle est positive sur $\\mathbb R_+$ et négative sur $\\mathbb R_-$. La fonction $\\mapsto x^3$ est bien élevée."},
+	{"answer":true,"statement":"Une fonction est dite <b>bien élévée</b> si elle est positive sur $\\mathbb R_+$ et négative sur $\\mathbb R_-$. La fonction $\\mapsto x$ est bien élevée."},
+	{"answer":false,"statement":"Une fonction est dite <b>bien élévée</b> si elle est positive sur $\\mathbb R_+$ et négative sur $\\mathbb R_-$. La fonction $\\mapsto x^2$ est bien élevée."},
+	{"answer":true,"statement":"On dit qu'un entier relatif est <b>rond</b> s'il est de la forme $2^{2^n}$, avec $n$ un entier. L'entier $2$ est rond."},
+	{"answer":true,"statement":"On dit qu'un entier est une <b>puissance de deux</b> s'il est de la forme $2^n$ avec $n$ un entier positif. L'entier $1024$ est une puissance de deux."},
+	{"answer":false,"statement":"On dit qu'un entier est une <b>puissance de deux</b> s'il est de la forme $2^n$ avec $n$ un entier positif. L'entier $1280$ est une puissance de deux."},
+	{"answer":false,"statement":"On dit qu'un entier est une <b>puissance de deux</b> s'il est de la forme $2^n$ avec $n$ un entier positif. L'entier $768$ est une puissance de deux."},
+	{"answer":true,"statement":"Une suite $(u_n)_{n \\in \\mathbb N}$ est dite <b>très croissante</b> si $u_{n+1} \\geq u_n+1$. La suite $u_n=n^2$ est très croissante."},
+	{"answer":true,"statement":"On dit que deux entiers relatifs $p$ et $q$ sont <b>opposés modulo deux</b> si $p+q$ est pair. Si $p$ et $q$  sont opposés modulo deux, alors $p$ et $-q$ le sont aussi."},
+	{"answer":false,"statement":"On dit que deux entiers relatifs $p$ et $q$ sont <b>opposés modulo trois</b> si $p+q$ est un multiple de trois. Si $p$ et $q$  sont opposés modulo trois, alors $p$ et $-q$ le sont aussi."}
+]

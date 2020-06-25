@@ -1,0 +1,89 @@
+[
+    {
+        "answer": true, 
+        "statement": "$2$ est une solution de l'équation $x^4-3x^3+x^2+4=0$.",
+		"comment": "Notez qu'on ne demande pas de résoudre l'équation."
+    },
+	{
+		"answer": true, 
+		"statement": "$2$ est une solution de l'équation $x^6-x^4-6x^3=0$.",
+		"comment": "Les petites puissances de $2$ sont à connaître."
+    },
+	{
+		"answer": false, 
+		"statement": "$2$ est une solution de l'équation $-x^5+3x^4-6x+2=0$.",
+		"comment": "Les petites puissances de $2$ sont à connaître."
+    },
+	{
+		"answer": true, 
+		"statement": "Une solution de l'équation $x^3-10x+3=0$ est $3$."
+    },
+	{
+		"answer": false, 
+		"statement": "$3$ est une solution de l'équation $x^3-6x+8=0$.",
+		"comment": "Pas besoin de calculer : toutes les puissances de $3$ sont impaires, ça ne peut pas marcher."
+    },
+	{
+		"answer": true, 
+		"statement": "L'équation $x^2-3x+2=0$ a une solution dans $\\mathbb Z$."
+    },
+	{
+		"answer": true, 
+		"statement": "L'équation $x^2-3x+2=0$ a deux solutions dans $\\mathbb Z$."
+    },
+    {
+        "answer": false, 
+        "statement": "$1/2$ est une solution de l'équation $x^2+x-1=0$.",
+		"comment": "Notez qu'on ne demande pas de résoudre l'équation."
+    },
+    {
+        "answer": true, 
+        "statement": "$-1$ est une solution de l'équation $|x+2/3|-1/3=0$.",
+		"comment": "Notez qu'on ne demande pas de résoudre l'équation."
+    },
+	{
+		"answer": false, 
+		"statement": "$5$ est une solution de l'équation $x^2-6x+1=0$.",
+		"comment": "Notez qu'on ne demande pas de résoudre l'équation."
+    },
+	{
+		"answer": true, 
+		"statement": "L'équation $x^2-6x+1=0$ a deux solutions distinctes dans $\\mathbb R$.",
+		"comment": "Le discriminant du trinôme doit être calculé de tête."
+    },
+	{
+		"answer": false, 
+		"statement": "L'équation $x^2-6x+1=0$ a deux solutions distinctes dans $\\mathbb Q$.",
+		"comment": "$\\sqrt{32} =4 \\sqrt 2$ n'est pas rationnel."
+    },
+	{
+		"answer": true, 
+		"statement": "L'équation $x^2-3x-4=0$ a deux solutions distinctes dans $\\mathbb Q$.",
+		"comment": "Dans ce cas particulier, le discriminant est un carré."
+    },
+	{
+		"answer": true, 
+		"statement": "Le trinôme $X^2-X-3$ a deux racines distinctes dans $\\mathbb R$.",
+		"comment": "Le discriminant du trinôme doit être calculé de tête."
+    },
+	{
+		"answer": false, 
+		"statement": "Le trinôme $X^2-3X+3$ a deux racines distinctes dans $\\mathbb R$.",
+		"comment": "Ici les racines sont distinctes, mais complexes"
+    },
+	{
+		"answer": false, 
+		"statement": "Le trinôme $X^2-6X+9$ a deux racines distinctes.",
+		"comment": "On doit reconnaître l'identité remarquable avant même de penser à calculer le discriminant."
+    },
+	{
+		"answer": false, 
+		"statement": "Le trinôme $X^2+8X+16$ a deux racines distinctes.",
+		"comment": "On doit reconnaître l'identité remarquable avant même de penser à calculer le discriminant."
+    },
+    {
+		"answer": false, 
+		"statement": "L'équation $e^x=-5$, d'inconnue $x\\in \\mathbb R$, admet $\\ln(-5)$ comme solution.",
+		"comment": "Une exponentielle est strictement positive et d'ailleurs $\\ln(-5)$ n'existe pas."
+    }
+]

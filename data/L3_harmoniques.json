@@ -1,0 +1,41 @@
+[
+	{
+		"answer": false, "statement": "La matrice $\\begin{pmatrix}1&2\\3&4\\end{pmatrix}$ induit une applcation $\\mathbb C\to \\mathbb C$ qui est $\\mathbb C$-linéaire."
+	},
+	{
+		"answer": false, "statement": "En coordonnées polaires, l'opérateur $\\overline \\partial$ s'écrit $\\partial_\\theta -ir\\partial_r$."
+	},
+	{
+		"answer": true, "statement": "Le polynôme $x^2-y^2$ est harmonique."
+	},
+	{
+		"answer": false, "statement": "Le polynôme $x^2+y^2$ est harmonique."
+	},
+	{
+		"answer": true, "statement": "Tout polynôme à deux variables est le laplacien d'un autre polynôme."
+	},
+	{
+		"answer": false, "statement": "Toute fonction à deux variables est le laplacien d'une autre fonction."
+	},
+	{
+		"answer": true, "statement": "Soit $f : U\to \\mathbb C$ une fonction holomorphe et $u : \\mathbb C \to \\mathbb C$ harmonique. Alors $u\\circ f$ est harmonique."
+	},
+	{
+		"answer": true, "statement": "La fonction $\\mathrm{arctan}(y/x)$ est harmonique."
+	},
+	{
+		"answer": false, "statement": "La fonction $r^2\\sin(\\theta)$ est harmonique."
+	},
+	{
+		"answer": true, "statement": "La fonction $r^2\\sin(2\\theta)$ est harmonique.", "comment": "C'est la partie réelle de $z^2$."
+	},
+	{
+		"answer": true, "statement": "Si une fonction à deux variables est harmonique, ses dérivées partielles $\\partial_x f$ et $\\partial_y f$ le sont également."
+	},
+	{
+		"answer": true, "statement": "Si une suite de fonctions $\\mathbb R^2\to \\mathbb R$ harmoniques converge uniformément, alors la limite est harmonique.", "comment": "La limite vérifie la formule de la moyenne."
+	},
+	{
+		"answer": false, "statement": "Une fonction qui vérifie le principe du maximum est harmonique.", "comment": "En fait, une fonction vérifie le principe du max ssi elle est sous-harmonique."
+	}
+]
