@@ -247,6 +247,7 @@ var app = new Vue({
         resultats: function(){
             var repCorrect = 0;
             var repFausses = 0;
+            $(".chronometre").remove("");
             if(this.copthemes.data.length != 0){
                 clearInterval(this.interval);
                 if (this.copthemes.data[this.liste[0]].type == "onlyone"){
