@@ -173,7 +173,6 @@ var app = new Vue({
             $( ".card-flex" ).append(rep);
             app.actualiserAffichage(false, true, false);
             app.actualiserMathJax();
-            $(".chronometre").append('<i class="fa fa-clock-o"></i>');
             app.startInterval();
         },
         sousListe: function(a,b){
@@ -247,7 +246,7 @@ var app = new Vue({
         resultats: function(){
             var repCorrect = 0;
             var repFausses = 0;
-            $(".chronometre").remove("");
+            $(".chronometre").hide("");
             if(this.copthemes.data.length != 0){
                 clearInterval(this.interval);
                 if (this.copthemes.data[this.liste[0]].type == "onlyone"){
@@ -270,6 +269,7 @@ var app = new Vue({
                 app.actualiserAffichage(false, false, true);
             // Sinon on lance la prochaine question
             }else{
+                $(".chronometre").show("");
                 app.nouvellePartie(this.copthemes);
             }
         },
@@ -283,7 +283,7 @@ var app = new Vue({
         },
         update_chrono: function(){
             if (this.tempstot == 0 && this.mn == 0) {
-                $(".chronometre").remove("");
+                $(".chronometre").hide("");
                 clearInterval(this.interval);
             }else{
                 this.tempstot = this.tempstot - 1;
@@ -294,6 +294,7 @@ var app = new Vue({
             }
         },
         startInterval: function () {
+            $(".chronometre").show();
             this.interval = setInterval(() => {app.update_chrono()}, 1000);
         },
         bonusvf : function(){
